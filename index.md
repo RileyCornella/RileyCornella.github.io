@@ -10,4 +10,5 @@ I study non-traditional stable isotopes.
 rcornel7@uwyo.edu
 ## Additional Information
 [Download my CV](CV.pdf)
+
 [UW Geology and Geophysics](https://www.uwyo.edu/geolgeophys/)
