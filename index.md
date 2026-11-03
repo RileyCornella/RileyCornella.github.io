@@ -14,34 +14,34 @@ layout: page
   
   h1 {
     font-size: 2.6rem !important;
-    margin-top: 25px;
+    margin-top: 0 !important;
   }
 
   h2 {
     font-size: 1.9rem !important;
-    margin-top: 35px;
+    margin-top: 30px !important;
   }
 </style>
 
-<img src="images/sylvanlake.jpg" alt="Field area overview" style="width: 100vw; height: 280px; object-fit: cover; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-top: -30px; display: block; max-width: none;">
+<img src="images/sylvanlake.jpg" alt="Field area overview" style="width: 100vw; height: 320px; object-fit: cover; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-top: -30px; display: block; max-width: none;">
 
-# Riley Cornella
-
-<div style="display: flex; gap: 30px; align-items: flex-start; margin-top: 25px; margin-bottom: 30px;">
-  <img src="images/profilepic.jpg" alt="Riley Cornella" style="width: 220px; height: 220px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+<div style="display: flex; gap: 40px; align-items: flex-start; margin-top: 40px; margin-bottom: 40px;">
+  <img src="images/profilepic.jpg" alt="Riley Cornella" style="width: 320px; height: 320px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+  
   <div style="flex-grow: 1;">
+    <h1 style="margin-top: 0;">Riley Cornella</h1>
+
     <p style="margin: 0 0 15px 0;">Hi! I am a master's student in the Department of Geology and Geophysics at the University of Wyoming.</p>
-    <p style="margin: 0;"><strong>Advisor:</strong> Dr. Ken Sims</p>
+    <p style="margin: 0 0 25px 0;"><strong>Advisor:</strong> Dr. Ken Sims</p>
+
+    <h2>Research</h2>
+    <p>My research involves using machine learning to identify economically viable mineral deposits, and evaluating non-traditional stable isotopes to see whether they can be used to vector towards these deposits.</p>
+
+    <h2>Contact</h2>
+    <p>rcornel7@uwyo.edu</p>
+
+    <h2>Additional Information</h2>
+    <p><a href="CV.pdf">Download my CV</a></p>
+    <p><a href="https://www.uwyo.edu/geolgeophys/">UW Geology and Geophysics</a></p>
   </div>
 </div>
-
-## Research
-My research involves using machine learning to identify economically viable mineral deposits, and evaluating non-traditional stable isotopes to see whether they can be used to vector towards these deposits.
-
-## Contact
-rcornel7@uwyo.edu
-
-## Additional Information
-[Download my CV](CV.pdf)
-
-[UW Geology and Geophysics](https://www.uwyo.edu/geolgeophys/)
