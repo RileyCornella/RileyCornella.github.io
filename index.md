@@ -26,7 +26,7 @@ layout: page
 <img src="images/sylvanlake.jpg" alt="Field area overview" style="width: 100vw; height: 320px; object-fit: cover; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-top: -30px; display: block; max-width: none;">
 
 <div style="display: flex; gap: 30px; align-items: center; margin-top: 40px; margin-bottom: 30px;">
-  <img src="images/profilepic.jpg" alt="Riley Cornella" style="width: 160px; height: 160px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+  <img src="images/profilepic.jpg" alt="Riley Cornella" style="width: 200px; height: 200px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
   
   <div style="flex-grow: 1;">
     <h1 style="margin-top: 0;">Riley Cornella</h1>
