@@ -23,14 +23,14 @@ layout: page
   }
 </style>
 
-<img src="images/sylvanlake.jpg" alt="Field area overview" style="width: 100vw; height: 220px; object-fit: cover; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-top: -30px; display: block; max-width: none;">
+<img src="images/sylvanlake.jpg" alt="Field area overview" style="width: 100vw; height: 280px; object-fit: cover; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-top: -30px; display: block; max-width: none;">
 
 # Riley Cornella
 
-<div style="display: flex; gap: 30px; align-items: center; margin-top: 25px; margin-bottom: 30px;">
-  <img src="images/profilepic.jpg" alt="Riley Cornella" style="width: 180px; height: 180px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
-  <div>
-    <p style="margin: 0 0 12px 0;">Hi! I am a master's student in the Department of Geology and Geophysics at the University of Wyoming.</p>
+<div style="display: flex; gap: 30px; align-items: flex-start; margin-top: 25px; margin-bottom: 30px;">
+  <img src="images/profilepic.jpg" alt="Riley Cornella" style="width: 220px; height: 220px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+  <div style="flex-grow: 1;">
+    <p style="margin: 0 0 15px 0;">Hi! I am a master's student in the Department of Geology and Geophysics at the University of Wyoming.</p>
     <p style="margin: 0;"><strong>Advisor:</strong> Dr. Ken Sims</p>
   </div>
 </div>
