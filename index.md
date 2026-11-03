@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 <img src="images/sylvanlake.jpg" alt="Field area overview" style="width: 100%; height: auto; display: block;">
 # Riley Cornella
