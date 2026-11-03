@@ -2,6 +2,13 @@
 layout: page
 ---
 
+<style>
+  body, p, h1, h2, h3, div, a {
+    color: #111111 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  }
+</style>
+
 <img src="images/sylvanlake.jpg" alt="Field area overview" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-top: -30px; display: block; max-width: none;">
 
 # Riley Cornella
