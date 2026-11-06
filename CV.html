@@ -1,1 +1,130 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | Riley Cornella</title>
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #f7f5ef;
+      color: #302d26;
+      font-family: Garamond, Georgia, serif;
+    }
+
+    /* Header */
+    .hero {
+      height: 180px;
+      background-color: #59634c;
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding-left: 7%;
+    }
+
+    .hero h1 {
+      color: white;
+      font-size: 48px;
+      font-weight: 500;
+    }
+
+    /* Navigation */
+    .nav {
+      position: absolute;
+      top: 20px;
+      right: 5%;
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .nav a:hover {
+      color: #d9c9a8;
+    }
+
+    /* Main content */
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 30px;
+    }
+
+    .download {
+      display: inline-block;
+      background-color: #59634c;
+      color: white;
+      padding: 10px 22px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .download:hover {
+      background-color: #9a7957;
+    }
+
+    iframe {
+      width: 100%;
+      height: 1000px;
+      border: 1px solid #d5d0c4;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        height: 140px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .nav {
+        gap: 18px;
+      }
+
+      .content {
+        padding: 0 15px;
+      }
+
+      iframe {
+        height: 700px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="hero">
+    <h1>Curriculum Vitae</h1>
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="CV.html">CV</a>
+    </div>
+  </div>
+
+  <!-- CV content -->
+  <div class="content">
+
+    <a class="download" href="CV.pdf" target="_blank">
+      Download CV (PDF)
+    </a>
+
+    <iframe src="CV.pdf" title="Riley Cornella CV"></iframe>
+
+  </div>
+
+</body>
+</html>
+
