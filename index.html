@@ -21,23 +21,22 @@
 
     /* Top image */
     .hero {
-      height: 380px;
+      height: 304px;
       width: 100%;
       position: relative;
       overflow: hidden;
       flex-shrink: 0;
     }
 
-  
-.hero img {
-  width: 100%;
-  height: 125%;
-  object-fit: cover;
-  object-position: center top;
-  position: absolute;
-  top: -20%;
-  left: 0;
-}
+    .hero img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      object-position: center top;
+      position: absolute;
+      top: -76px;
+      left: 0;
+    }
 
     /* Navigation */
     .nav {
@@ -46,6 +45,7 @@
       right: 5%;
       display: flex;
       gap: 30px;
+      align-items: center;
     }
 
     .nav a,
@@ -54,8 +54,10 @@
     .nav a:hover {
       color: #d9c9a8;
       text-decoration: none;
+      font-family: Garamond, Georgia, serif;
       font-size: 22px;
       font-weight: bold;
+      line-height: 1;
     }
 
     /* Name on image */
@@ -123,7 +125,12 @@
     /* Mobile layout */
     @media (max-width: 600px) {
       .hero {
+        height: 224px;
+      }
+
+      .hero img {
         height: 280px;
+        top: -56px;
       }
 
       .hero-name {
