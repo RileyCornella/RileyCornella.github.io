@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +9,18 @@
   <style>
     body {
       margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
       background: #f7f5ef;
       color: #302d26;
       font-family: Garamond, Georgia, serif;
     }
 
+    /* Header */
     .header {
       background: #59634c;
-      padding: 35px 7%;
+      padding: 20px 5%;
       color: #d9c9a8;
       display: flex;
       justify-content: space-between;
@@ -28,21 +33,26 @@
       color: #d9c9a8;
     }
 
-    .header a {
+    /* Navigation */
+    .header a,
+    .header a:visited,
+    .header a:active,
+    .header a:hover {
       color: #d9c9a8;
       text-decoration: none;
-      margin-left: 20px;
-      font-size: 20px;
+      margin-left: 30px;
+      font-size: 22px;
+      font-weight: bold;
     }
 
-    .header a:hover {
-      color: #f7f5ef;
-    }
-
+    /* Main content */
     .content {
       max-width: 1000px;
+      width: 100%;
+      box-sizing: border-box;
       margin: 40px auto;
       padding: 0 25px;
+      flex: 1;
     }
 
     iframe {
@@ -50,6 +60,29 @@
       height: 900px;
       border: 1px solid #ddd;
       margin-top: 20px;
+    }
+
+    /* Mobile layout */
+    @media (max-width: 600px) {
+      .header {
+        padding: 20px 5%;
+      }
+
+      .header h1 {
+        font-size: 30px;
+      }
+
+      .header a,
+      .header a:visited,
+      .header a:active,
+      .header a:hover {
+        font-size: 22px;
+        margin-left: 15px;
+      }
+
+      .content {
+        padding: 0 20px;
+      }
     }
   </style>
 </head>
