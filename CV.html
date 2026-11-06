@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,122 +8,65 @@
   <style>
     body {
       margin: 0;
-      background-color: #f7f5ef;
+      background: #f7f5ef;
       color: #302d26;
       font-family: Garamond, Georgia, serif;
     }
 
-    /* Header */
-    .hero {
-      height: 180px;
-      background-color: #59634c;
-      position: relative;
+    .header {
+      background: #59634c;
+      padding: 35px 7%;
+      color: #d9c9a8;
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      padding-left: 7%;
     }
 
-    .hero h1 {
-      color: white;
-      font-size: 48px;
-      font-weight: 500;
-    }
-
-    /* Navigation */
-    .nav {
-      position: absolute;
-      top: 20px;
-      right: 5%;
-      display: flex;
-      gap: 30px;
-    }
-
-    .nav a {
-      color: white;
-      text-decoration: none;
-      font-size: 22px;
-      font-weight: bold;
-    }
-
-    .nav a:hover {
+    .header h1 {
+      font-size: 40px;
+      margin: 0;
       color: #d9c9a8;
     }
 
-    /* Main content */
+    .header a {
+      color: #d9c9a8;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+
+    .header a:hover {
+      color: #f7f5ef;
+    }
+
     .content {
       max-width: 1000px;
       margin: 40px auto;
-      padding: 0 30px;
-    }
-
-    .download {
-      display: inline-block;
-      background-color: #59634c;
-      color: white;
-      padding: 10px 22px;
-      text-decoration: none;
-      border-radius: 4px;
-      font-size: 18px;
-      margin-bottom: 25px;
-    }
-
-    .download:hover {
-      background-color: #9a7957;
+      padding: 0 25px;
     }
 
     iframe {
       width: 100%;
-      height: 1000px;
-      border: 1px solid #d5d0c4;
-    }
-
-    @media (max-width: 600px) {
-      .hero {
-        height: 140px;
-      }
-
-      .hero h1 {
-        font-size: 36px;
-      }
-
-      .nav {
-        gap: 18px;
-      }
-
-      .content {
-        padding: 0 15px;
-      }
-
-      iframe {
-        height: 700px;
-      }
+      height: 900px;
+      border: 1px solid #ddd;
+      margin-top: 20px;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Header -->
-  <div class="hero">
+  <div class="header">
     <h1>Curriculum Vitae</h1>
-
-    <div class="nav">
+    <div>
       <a href="index.html">Home</a>
       <a href="CV.html">CV</a>
     </div>
   </div>
 
-  <!-- CV content -->
   <div class="content">
-
-    <a class="download" href="CV.pdf" target="_blank">
-      Download CV (PDF)
-    </a>
-
     <iframe src="CV.pdf" title="Riley Cornella CV"></iframe>
-
   </div>
 
 </body>
 </html>
-
